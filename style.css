@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.object-cover {
+    object-fit: cover;
+    
+}
+
+.hover:hover {
+    color: #0000008a;
+    transition: 1s;
+}
+
+/* border */
+.border-black {
+    border: 1px solid #000;
+}
+
+.border-none {
+    border: none;
+}
+
+/* bacground */
+.bg-white {
+    background: #FFF;
+}
+.bg-black {
+    background: black;
+}
+/* width */
+.max-w-1310 {
+    max-width: 1310px;
+}
+.w-730 {
+    max-width: 730px;
+    height: 500px;
+}
+.w-548 {
+    max-width: 548px;
+    display: inline-block;
+}
+/* padding end margin*/
+.px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.ptop-25 {
+    padding-top: 25px;
+}
+.ptop-15 {
+    padding-top: 15px;
+}
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.px-25 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.py-13 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py-27 {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.mtop-40 {
+    margin-top: 40px;
+}
+.mtop-100 {
+    margin-top: 100px;
+}
+/* display */
+.flex {
+    display: flex;
+}
+
+.justfiy-between {
+    justify-content: space-between;
+}
+
+.icetms-center {
+    align-items: center;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-63 {
+    gap: 63px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/* fontlar */
+.text-700 {
+    font-weight: 700;
+}
+
+.text-600 {
+    font-weight: 600;
+}
+.text-white {
+    color: white;
+}
+.text-18 {
+    font-size: 18px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-3d3d3d {
+    color:  #3D3D3D;
+}
+
+.text-black {
+    color: #000;
+}
+.text-32 {
+    font-size: 32px;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.font-Inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+@media (min-width:768px) {
+    .md-block {
+        display: block;
+    }
+    .md-hidden {
+        display: none;
+    }
+    .md-text-52 {
+        font-size: 52px;
+    }
+    .md-ptop-35  {
+        padding-top: 35px;
+    }
+    .md-ptop-50 {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 1024px) {}
