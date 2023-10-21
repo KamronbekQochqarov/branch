@@ -46,8 +46,12 @@ button {
 .absolute {
     position: absolute;
 }
-
-
+.bottom-25 {
+    bottom: 25px;
+}
+.left-25 {
+    left: 25px;
+}
 /* border */
 .border-black {
     border: 1px solid #000;
