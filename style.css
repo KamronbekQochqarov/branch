@@ -38,7 +38,11 @@ button {
 .position-relative {
     position: relative;
 }
-
+.position-absalyute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .absolute {
     position: absolute;
 }
